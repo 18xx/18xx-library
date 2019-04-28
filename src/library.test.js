@@ -1,11 +1,11 @@
-import games from './games';
+import library from './library';
 
 test('there are 113 games', () => {
-  expect(games.length).toBe(113);
+  expect(library.all().length).toBe(113);
 });
 
 test('each game has an appropriate entry for each rule', () => {
-  games.forEach((game) => {
+  library.all().forEach((game) => {
     expect(game.missingRules().length).toBe(0);
   });
 });

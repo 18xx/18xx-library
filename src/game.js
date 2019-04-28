@@ -6,7 +6,7 @@ import rule2_1 from './rule_2.1';
 import rule2_2 from './rule_2.2';
 import rule2_3 from './rule_2.3';
 import rule2_4 from './rule_2.4';
-// Missing 2.5
+import rule2_5 from './rule_2.5';
 import rule2_6 from './rule_2.6';
 import rule2_7 from './rule_2.7';
 import rule2_8 from './rule_2.8';
@@ -43,6 +43,7 @@ class Game {
       '2.2': this.lookup(rule2_2),
       '2.3': this.lookup(rule2_3),
       '2.4': this.lookup(rule2_4),
+      '2.5': this.lookup(rule2_5),
       '2.6': this.lookup(rule2_6),
       '2.7': this.lookup(rule2_7),
       '2.8': this.lookup(rule2_8),

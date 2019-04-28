@@ -6,6 +6,7 @@ import rule2_1 from './rule_2.1';
 import rule2_2 from './rule_2.2';
 import rule2_3 from './rule_2.3';
 import rule2_4 from './rule_2.4';
+import rule2_5 from './rule_2.5';
 import rule2_6 from './rule_2.6';
 import rule2_7 from './rule_2.7';
 import rule2_8 from './rule_2.8';
@@ -53,6 +54,10 @@ test('rule 2.3 complete', () => {
 
 test('rule 2.4 complete', () => {
   complete(rule2_4);
+});
+
+test('rule 2.5 complete', () => {
+  complete(rule2_5);
 });
 
 test('rule 2.6 complete', () => {

@@ -6,6 +6,12 @@ import rule2_1 from './rule_2.1';
 import rule2_2 from './rule_2.2';
 import rule2_3 from './rule_2.3';
 import rule2_4 from './rule_2.4';
+import rule2_6 from './rule_2.6';
+import rule2_7 from './rule_2.7';
+import rule2_8 from './rule_2.8';
+import rule2_9 from './rule_2.9';
+import rule2_10 from './rule_2.10';
+import rule2_11 from './rule_2.11';
 
 import games from './games';
 
@@ -47,4 +53,28 @@ test('rule 2.3 complete', () => {
 
 test('rule 2.4 complete', () => {
   complete(rule2_4);
+});
+
+test('rule 2.6 complete', () => {
+  complete(rule2_6);
+});
+
+test('rule 2.7 complete', () => {
+  complete(rule2_7);
+});
+
+test('rule 2.8 complete', () => {
+  complete(rule2_8);
+});
+
+test('rule 2.9 complete', () => {
+  complete(rule2_9);
+});
+
+test('rule 2.10 complete', () => {
+  complete(rule2_10);
+});
+
+test('rule 2.11 complete', () => {
+  complete(rule2_11);
 });

@@ -18,6 +18,7 @@ module.exports = {
   ],
   rules: {
     'camelcase': "off",
+    'max-len': "off",
     'quote-props': "off",
   },
 };

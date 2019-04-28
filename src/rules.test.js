@@ -3,6 +3,9 @@ import rule1_2 from './rule_1.2';
 import rule1_3 from './rule_1.3';
 import rule1_4 from './rule_1.4';
 import rule2_1 from './rule_2.1';
+import rule2_2 from './rule_2.2';
+import rule2_3 from './rule_2.3';
+import rule2_4 from './rule_2.4';
 
 import games from './games';
 
@@ -32,4 +35,16 @@ test('rule 1.4 complete', () => {
 
 test('rule 2.1 complete', () => {
   complete(rule2_1);
+});
+
+test('rule 2.2 complete', () => {
+  complete(rule2_2);
+});
+
+test('rule 2.3 complete', () => {
+  complete(rule2_3);
+});
+
+test('rule 2.4 complete', () => {
+  complete(rule2_4);
 });

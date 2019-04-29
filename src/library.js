@@ -11,7 +11,7 @@ class Library {
   }
 
   all() {
-    return this.data;
+    return this.data.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   add(game) {

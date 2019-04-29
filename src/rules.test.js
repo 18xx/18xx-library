@@ -14,9 +14,9 @@ import rule2_9 from './rule_2.9';
 import rule2_10 from './rule_2.10';
 import rule2_11 from './rule_2.11';
 
-import games from './games';
+import library from './library';
 
-const gameNames = games.map(g => g.name).concat(['default']);
+const gameNames = library.all().map(g => g.name).concat(['default']);
 
 const complete = (rule) => {
   Object.keys(rule).forEach((name) => {

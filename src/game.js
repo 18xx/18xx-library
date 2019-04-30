@@ -122,6 +122,7 @@ class Game {
     result[ruleText('3.1')] = this.lookup(rule3_1);
     result[ruleText('3.2')] = this.lookup(rule3_2);
     result[ruleText('3.3')] = this.lookup(rule3_3);
+    result[ruleText('3.4')] = this.lookup(rule3_4);
     return result;
   }
 

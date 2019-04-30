@@ -13,6 +13,10 @@ import rule2_8 from './rule_2.8';
 import rule2_9 from './rule_2.9';
 import rule2_10 from './rule_2.10';
 import rule2_11 from './rule_2.11';
+import rule3_1 from './rule_3.1';
+import rule3_2 from './rule_3.2';
+import rule3_3 from './rule_3.3';
+import rule3_4 from './rule_3.4';
 
 const ruleText = (number) => {
   let result = `${number} - `;
@@ -62,6 +66,18 @@ const ruleText = (number) => {
     case '2.11':
       result += 'What ends a share dealing round?';
       break;
+    case '3.1':
+      result += 'Do you lay the base station token immediately upon floating?';
+      break;
+    case '3.2':
+      result += 'How many shares must be sold for a company to float?';
+      break;
+    case '3.3':
+      result += 'Does a company get full capitalisation upon floating?';
+      break;
+    case '3.4':
+      result += "How is a share company's initial (par) price determined?";
+      break;
     default:
   }
   return result;
@@ -103,6 +119,9 @@ class Game {
     result[ruleText('2.9')] = this.lookup(rule2_9);
     result[ruleText('2.10')] = this.lookup(rule2_10);
     result[ruleText('2.11')] = this.lookup(rule2_11);
+    result[ruleText('3.1')] = this.lookup(rule3_1);
+    result[ruleText('3.2')] = this.lookup(rule3_2);
+    result[ruleText('3.3')] = this.lookup(rule3_3);
     return result;
   }
 

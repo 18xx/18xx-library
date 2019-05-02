@@ -17,6 +17,8 @@ import rule3_1 from './rule_3.1';
 import rule3_2 from './rule_3.2';
 import rule3_3 from './rule_3.3';
 import rule3_4 from './rule_3.4';
+import rule4_1 from './rule_4.1';
+import rule4_2 from './rule_4.2';
 
 import library from './library';
 
@@ -102,4 +104,12 @@ test('rule 3.3 complete', () => {
 
 test('rule 3.4 complete', () => {
   complete(rule3_4);
+});
+
+test('rule 4.1 complete', () => {
+  complete(rule4_1);
+});
+
+test('rule 4.2 complete', () => {
+  complete(rule4_2);
 });

@@ -17,6 +17,8 @@ import rule3_1 from './rule_3.1';
 import rule3_2 from './rule_3.2';
 import rule3_3 from './rule_3.3';
 import rule3_4 from './rule_3.4';
+import rule4_1 from './rule_4.1';
+import rule4_2 from './rule_4.2';
 
 const ruleText = (number) => {
   let result = `${number} - `;
@@ -78,6 +80,12 @@ const ruleText = (number) => {
     case '3.4':
       result += "How is a share company's initial (par) price determined?";
       break;
+    case '4.1':
+      result += 'In what order do companies operate?';
+      break;
+    case '4.2':
+      result += 'If you sell shares so that their tokens end up in one stack, what order are they stacked in?';
+      break;
     default:
   }
   return result;
@@ -123,6 +131,8 @@ class Game {
     result[ruleText('3.2')] = this.lookup(rule3_2);
     result[ruleText('3.3')] = this.lookup(rule3_3);
     result[ruleText('3.4')] = this.lookup(rule3_4);
+    result[ruleText('4.1')] = this.lookup(rule4_1);
+    result[ruleText('4.2')] = this.lookup(rule4_2);
     return result;
   }
 

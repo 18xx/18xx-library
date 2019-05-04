@@ -19,6 +19,10 @@ import rule3_3 from './rule_3.3';
 import rule3_4 from './rule_3.4';
 import rule4_1 from './rule_4.1';
 import rule4_2 from './rule_4.2';
+import rule5_1 from './rule_5.1';
+import rule5_2 from './rule_5.2';
+import rule5_3 from './rule_5.3';
+import rule5_4 from './rule_5.4';
 
 const ruleText = (number) => {
   let result = `${number} - `;
@@ -86,6 +90,18 @@ const ruleText = (number) => {
     case '4.2':
       result += 'If you sell shares so that their tokens end up in one stack, what order are they stacked in?';
       break;
+    case '5.1':
+      result += 'Where can you make an initial tile lay? i.e. what are the conditions for laying a tile (not necessarily a yellow one) onto a previously untiled hex? (References are included.)';
+      break;
+    case '5.2':
+      result += 'Can you lay two tiles in a turn?';
+      break;
+    case '5.3':
+      result += 'Must a tile replacement extend existing track?';
+      break;
+    case '5.4':
+      result += 'Do villages upgrade?';
+      break;
     default:
   }
   return result;
@@ -133,6 +149,10 @@ class Game {
     result[ruleText('3.4')] = this.lookup(rule3_4);
     result[ruleText('4.1')] = this.lookup(rule4_1);
     result[ruleText('4.2')] = this.lookup(rule4_2);
+    result[ruleText('5.1')] = this.lookup(rule5_1);
+    result[ruleText('5.2')] = this.lookup(rule5_2);
+    result[ruleText('5.3')] = this.lookup(rule5_3);
+    result[ruleText('5.4')] = this.lookup(rule5_4);
     return result;
   }
 

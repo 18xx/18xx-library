@@ -19,6 +19,10 @@ import rule3_3 from './rule_3.3';
 import rule3_4 from './rule_3.4';
 import rule4_1 from './rule_4.1';
 import rule4_2 from './rule_4.2';
+import rule5_1 from './rule_5.1';
+import rule5_2 from './rule_5.2';
+import rule5_3 from './rule_5.3';
+import rule5_4 from './rule_5.4';
 
 import library from './library';
 
@@ -112,4 +116,20 @@ test('rule 4.1 complete', () => {
 
 test('rule 4.2 complete', () => {
   complete(rule4_2);
+});
+
+test('rule 5.1 complete', () => {
+  complete(rule5_1);
+});
+
+test('rule 5.2 complete', () => {
+  complete(rule5_2);
+});
+
+test('rule 5.3 complete', () => {
+  complete(rule5_3);
+});
+
+test('rule 5.4 complete', () => {
+  complete(rule5_4);
 });
